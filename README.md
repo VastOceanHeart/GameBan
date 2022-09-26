@@ -13,6 +13,14 @@ That is GameBan.
 ## Getting started
 
 The login page is the entrance to the GameBan. As Neil mentioned in 2014 about less form input, users should input the email and password they have registered and click login to enter GameBan. Also, to achieve what Wroblewski mentioned in 2015 and improve usability, the eye button can let the user check passwords or hide passwords to improve security and convenience. In addition, the X button can clear all input in the email or password part.
+ 
+
+If users do not have an account, click "SIGN UP" to jump to the signup page(data entry page). This page will explain in the later part.
+
+If users want to exit the app on this page, they can click the back button in the upper left corner. The app will jump to the screen shown below
+ 
+If the user clicks "NO" on this screen, the app will return to the login page. Else if the user clicks "YES", the app will clear all activities in the activity stack and shut down.
+ 
 
 ## Add your files
 
