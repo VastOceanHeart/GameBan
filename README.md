@@ -2,11 +2,17 @@
 
 FIT5046 Assignment3
 
+GameBan, a software designed to provide players with multi-channel game information resources, provide convenience and efficient gaming information to each user.
+
+GameBan draws inspiration from the Kanban management of the gaming powerhouse Japan and the well-known handheld game console Gameboy. Similar to the application of one card after another in Kanban management, each display unit and interactive unit of GameBan are designed and placed in one card so that users can clearly understand and understand one function unit after another. At the same time, in order to pay tribute to Nintendo's famous handheld GameBoy, which led the game industry for a generation, GameBan's theme UI and colour matching design incorporate a large number of pixel styles from the GameBoy era in order to provide users with the atmosphere of the golden age of games
+
+With just a simple search, the latest game news and the most popular and relevant game videos can be presented in front of the user's eyes. In addition, GameBan can also provide users with relevant data such as the name, price, and favourable rating of the games they have searched based on the user's historical search information, so that users can clearly understand the dynamic information of the games they care about. What is more, GameBan can also find the nearest game store and a quick route for users based on the address filled in by users so that users can efficiently and conveniently find the place to buy games. Finally, users do not need to worry about losing their data because the Firebase database and scheduled synchronisation will fully protect users' data.
+
+That is GameBan.
+
 ## Getting started
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+The login page is the entrance to the GameBan. As Neil mentioned in 2014 about less form input, users should input the email and password they have registered and click login to enter GameBan. Also, to achieve what Wroblewski mentioned in 2015 and improve usability, the eye button can let the user check passwords or hide passwords to improve security and convenience. In addition, the X button can clear all input in the email or password part.
 
 ## Add your files
 
