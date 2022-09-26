@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.gameban">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gameban"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/gameban"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GameBan">
+        <activity
+            android:name=".Video"
+            android:exported="true"
+            android:theme="@style/Theme.NavigationJava.NoactionBar">
+            ></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBaQ7NdDfcx2wfCz4uc92OMfpsceymELH0" />
+
+        <activity
+            android:name=".loginSignup.LoginPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> <!--  -->
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.NavigationJava.NoactionBar">
+        </activity>
+    </application>
+
+    <!-- Used for Youtube Player-->
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+</manifest>

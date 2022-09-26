@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home_fragment">
+
+    <fragment
+        android:id="@+id/nav_home_fragment"
+        android:name="com.example.gameban.fragment.HomeFragment"
+        android:label="GameBan"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_history_fragment"
+        android:name="com.example.gameban.fragment.HistoryFragment"
+        android:label="GameBan"
+        tools:layout="@layout/fragment_history">
+        <action
+            android:id="@+id/action_nav_history_fragment_to_nav_home_fragment"
+            app:destination="@id/nav_home_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_report_fragment"
+        android:name="com.example.gameban.fragment.ReportFragment"
+        android:label="GameBan"
+        tools:layout="@layout/fragment_report">
+        <action
+            android:id="@+id/action_nav_report_fragment_to_nav_home_fragment"
+            app:destination="@id/nav_home_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_map_fragment"
+        android:name="com.example.gameban.fragment.MapFragment"
+        android:label="GameBan"
+        tools:layout="@layout/fragment_map">
+        <action
+            android:id="@+id/action_nav_map_fragment_to_nav_home_fragment"
+            app:destination="@id/nav_home_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_logout_fragment"
+        android:name="com.example.gameban.fragment.LogoutFragment"
+        android:label="GameBan"
+        tools:layout="@layout/fragment_logout">
+        <action
+            android:id="@+id/action_nav_logout_fragment_to_nav_home_fragment"
+            app:destination="@id/nav_home_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_work_manager_exhibit_fragment"
+        android:name="com.example.gameban.fragment.WorkManagerExhibitFragment"
+        android:label="GameBan"
+        tools:layout="@layout/fragment_work_manager_exhibit">
+        <action
+            android:id="@+id/action_nav_work_manager_exhibit_fragment_to_nav_home_fragment"
+            app:destination="@id/nav_home_fragment" />
+    </fragment>
+
+</navigation>

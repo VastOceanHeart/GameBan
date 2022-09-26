@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/nav_home_fragment"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_history_fragment"
+        android:title="Search History" />
+    <item
+        android:id="@+id/nav_report_fragment"
+        android:title="Report" />
+    <item
+        android:id="@+id/nav_map_fragment"
+        android:title="Map" />
+
+    <item
+        android:id="@+id/nav_work_manager_exhibit_fragment"
+        android:title="My Information" />
+
+    <item
+        android:id="@+id/nav_logout_fragment"
+        android:title="Switch Account" />
+</menu>

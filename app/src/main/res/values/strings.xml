@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GameBan</string>
+
+    <!-- Home page -->
+    <string name="home_page_name">Home Page</string>
+    <string name="game_name_default">🎮 Game Name</string>
+    <string name="news_title_default">💬 News Title</string>
+    <string name="news_link_default">🌐 News Link</string>
+    <string name="hello_blank_fragment">🌐 News Link</string>
+
+    <!-- History page -->
+    <string name="history_page_name">Your Searching History</string>
+    <string name="game_price_default">💳 Game Price</string>
+    <string name="game_price_favorable_rate">🎭 Game Praise Rate</string>
+
+    <!-- Report page -->
+    <string name="report">Report</string>
+
+    <!-- Work manager exhibit page -->
+    <string name="work_manager_exhibit">My Information</string>
+</resources>
